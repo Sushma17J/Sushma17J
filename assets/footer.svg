@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="142" viewBox="0 0 1000 142" role="img" aria-label="Connect with Sushma">
+<title>Connect with Sushma</title>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100D1D"/><stop offset="1" stop-color="#211832"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9B9FF"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#7053D6"/></linearGradient>
+ <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD0C8"/><stop offset=".55" stop-color="#FF897A"/><stop offset="1" stop-color="#D65A72"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".025"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9DEFF" stop-opacity=".75"/><stop offset="1" stop-color="#9B7CFF" stop-opacity=".1"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-35%" width="170%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset dy="10" dx="2" result="offset"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#B7A3FF" stroke-opacity=".055" stroke-width="1"/></pattern>
+ 
+ <style>text{font-family:Inter,Arial,Helvetica,sans-serif}</style>
+</defs>
+<rect width="1000" height="142" rx="25" fill="url(#bg)" stroke="#554477"/>
+<path d="M760 0H1000V142H860Q800 105 820 60Q833 23 760 0Z" fill="#3B2D61"/>
+<ellipse cx="900" cy="74" rx="93" ry="34" transform="rotate(-25 900 74)" fill="none" stroke="#FF897A" stroke-width="2" stroke-opacity=".65"/>
+<g transform="translate(900 61) scale(0.28)" filter="url(#shadow)">
+      <ellipse cx="0" cy="115" rx="100" ry="20" fill="#000" opacity=".30"/>
+      <polygon points="0,-105 96,-50 0,6 -96,-50" fill="url(#violet)" stroke="#E8DDFF" stroke-opacity=".7" stroke-width="2"/>
+      <polygon points="-96,-50 0,6 0,118 -96,62" fill="#6F56C6" stroke="#C6B4FF" stroke-opacity=".45" stroke-width="2"/>
+      <polygon points="96,-50 0,6 0,118 96,62" fill="#40316F" stroke="#C6B4FF" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M-70 -50L0 -9L70 -50" fill="none" stroke="#FFF" stroke-opacity=".55" stroke-width="3"/>
+      <path d="M0 15V100" stroke="#FFB6AA" stroke-opacity=".8" stroke-width="3"/>
+      <path d="M-74 -32L-74 48" stroke="#FFF" stroke-opacity=".22" stroke-width="2"/>
+      <path d="M75 -32V48" stroke="#FFB5AA" stroke-opacity=".2" stroke-width="2"/>
+    </g>
+<text x="38" y="42" font-size="10.5" font-weight="700" letter-spacing="2" fill="#FF897A">LET'S CONNECT</text>
+<text x="38" y="80" font-size="24" font-weight="750" fill="#F8F5FF">Thanks for visiting my profile.</text>
+<text x="38" y="108" font-size="12" fill="#B9B0CB">Explore my projects and follow my journey in Generative AI.</text>
+</svg>

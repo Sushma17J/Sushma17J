@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="278" viewBox="0 0 1000 278" role="img" aria-label="Experience and learning journey">
+<title>Experience and learning journey</title>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100D1D"/><stop offset="1" stop-color="#211832"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9B9FF"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#7053D6"/></linearGradient>
+ <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD0C8"/><stop offset=".55" stop-color="#FF897A"/><stop offset="1" stop-color="#D65A72"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".025"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9DEFF" stop-opacity=".75"/><stop offset="1" stop-color="#9B7CFF" stop-opacity=".1"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-35%" width="170%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset dy="10" dx="2" result="offset"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#B7A3FF" stroke-opacity=".055" stroke-width="1"/></pattern>
+ 
+ <style>text{font-family:Inter,Arial,Helvetica,sans-serif}</style>
+</defs>
+<rect width="1000" height="278" rx="25" fill="url(#bg)" stroke="#554477"/>
+<text x="38" y="42" font-size="11" font-weight="700" letter-spacing="2.5" fill="#FF897A">EXPERIENCE &amp; LEARNING</text>
+<text x="38" y="80" font-size="25" font-weight="750" fill="#F8F5FF">Learning by building real applications</text>
+<g filter="url(#shadow)">
+      <rect x="41" y="119" width="445" height="132" rx="18" fill="#34275A" stroke="#A78BFA" stroke-opacity=".45"/>
+      <rect x="34" y="108" width="445" height="132" rx="18" fill="url(#glass)" stroke="#A78BFA" stroke-opacity=".62" stroke-width="1.5"/>
+      <path d="M52 109H461" stroke="#FFF" stroke-opacity=".24" stroke-width="2" stroke-linecap="round"/>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="523" y="119" width="450" height="132" rx="18" fill="#6A3445" stroke="#FF897A" stroke-opacity=".45"/>
+      <rect x="516" y="108" width="450" height="132" rx="18" fill="url(#glass)" stroke="#FF897A" stroke-opacity=".62" stroke-width="1.5"/>
+      <path d="M534 109H948" stroke="#FFF" stroke-opacity=".24" stroke-width="2" stroke-linecap="round"/>
+    </g>
+<text x="58" y="140" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#A78BFA">CURRENT ROLE</text>
+<text x="58" y="174" font-size="19" font-weight="750" fill="#F8F5FF">Generative AI Engineer Intern</text>
+<text x="58" y="205" font-size="12.5" fill="#B9B0CB">Exploring LLM-powered applications, RAG and Python tools.</text>
+<text x="542" y="140" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#FF897A">PRACTICAL EXPERIENCE</text>
+<text x="542" y="174" font-size="19" font-weight="750" fill="#F8F5FF">From idea to useful tools</text>
+<text x="542" y="205" font-size="12.5" fill="#B9B0CB">Image workflows · College discovery · Translation · PDF apps</text>
+<text x="38" y="267" font-size="10.5" fill="#B9B0CB">A growing project journey across AI, language, imaging and document tools.</text>
+</svg>

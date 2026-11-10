@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-label="Sushma Joshi | 3D Generative AI Profile">
+<title>Sushma Joshi | 3D Generative AI Profile</title>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100D1D"/><stop offset="1" stop-color="#211832"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9B9FF"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#7053D6"/></linearGradient>
+ <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD0C8"/><stop offset=".55" stop-color="#FF897A"/><stop offset="1" stop-color="#D65A72"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".025"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9DEFF" stop-opacity=".75"/><stop offset="1" stop-color="#9B7CFF" stop-opacity=".1"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-35%" width="170%" height="190%"><feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/><feOffset dy="10" dx="2" result="offset"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#B7A3FF" stroke-opacity=".055" stroke-width="1"/></pattern>
+ 
+ <style>text{font-family:Inter,Arial,Helvetica,sans-serif}</style>
+</defs>
+<rect width="1000" height="340" rx="28" fill="url(#bg)" stroke="#554477"/>
+<rect width="1000" height="340" rx="28" fill="url(#grid)"/>
+<circle cx="820" cy="164" r="150" fill="#8062D9" opacity=".12" filter="url(#glow)"/>
+<ellipse cx="824" cy="176" rx="169" ry="67" transform="rotate(-24 824 176)" fill="none" stroke="#FF897A" stroke-opacity=".42" stroke-width="2"/>
+<ellipse cx="824" cy="176" rx="132" ry="53" transform="rotate(34 824 176)" fill="none" stroke="#A78BFA" stroke-opacity=".5" stroke-width="2"/>
+<rect x="54" y="36" width="264" height="30" rx="15" fill="#35284E" stroke="#FF897A" stroke-opacity=".6"/>
+<circle cx="73" cy="51" r="4" fill="#FF897A"/>
+<text x="88" y="56" font-size="11" font-weight="700" letter-spacing="2" fill="#F7B8AE">GENERATIVE AI  /  PYTHON  /  INNOVATION</text>
+<text x="52" y="139" font-size="50" font-weight="800" fill="#F8F5FF">SUSHMA JOSHI</text>
+<text x="56" y="185" font-size="22" font-weight="700" fill="#A78BFA">Generative AI Engineer Intern</text>
+<text x="56" y="225" font-size="15" fill="#B9B0CB">Turning ideas into useful AI-powered applications.</text>
+<path d="M57 260H190" stroke="#FF897A" stroke-width="5" stroke-linecap="round"/>
+<text x="56" y="291" font-size="11" font-weight="700" letter-spacing="2" fill="#D4CDE3">BUILD  ·  CREATE  ·  EXPLORE</text>
+<g transform="translate(818 153) scale(0.72)" filter="url(#shadow)">
+      <ellipse cx="0" cy="115" rx="100" ry="20" fill="#000" opacity=".30"/>
+      <polygon points="0,-105 96,-50 0,6 -96,-50" fill="url(#violet)" stroke="#E8DDFF" stroke-opacity=".7" stroke-width="2"/>
+      <polygon points="-96,-50 0,6 0,118 -96,62" fill="#6F56C6" stroke="#C6B4FF" stroke-opacity=".45" stroke-width="2"/>
+      <polygon points="96,-50 0,6 0,118 96,62" fill="#40316F" stroke="#C6B4FF" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M-70 -50L0 -9L70 -50" fill="none" stroke="#FFF" stroke-opacity=".55" stroke-width="3"/>
+      <path d="M0 15V100" stroke="#FFB6AA" stroke-opacity=".8" stroke-width="3"/>
+      <path d="M-74 -32L-74 48" stroke="#FFF" stroke-opacity=".22" stroke-width="2"/>
+      <path d="M75 -32V48" stroke="#FFB5AA" stroke-opacity=".2" stroke-width="2"/>
+    </g>
+<circle cx="943" cy="63" r="11" fill="url(#coral)" filter="url(#glow)"/>
+<circle cx="701" cy="272" r="7" fill="url(#violet)"/>
+</svg>
